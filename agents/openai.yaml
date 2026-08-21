@@ -1,0 +1,4 @@
+interface:
+  display_name: "Codex 外部匯入封存修復"
+  short_description: "稽核並安全修復 Claude 或 Cursor 匯入後無法封存的工作階段"
+  default_prompt: "使用 $codex-external-import-repair 唯讀稽核外部匯入工作階段的封存狀態。"

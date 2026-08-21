@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+*.sqlite
+*.sqlite3
+*.db
+*.jsonl
+failures.json
+plan.json
+repair-result.json
+rollback-result.json
+manual_repair_backups/
+.env
+.venv/
+venv/
+.idea/
+.vscode/
