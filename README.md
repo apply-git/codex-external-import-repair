@@ -1,6 +1,6 @@
 # Codex External Import Repair
 
-[繁體中文](#繁體中文) | [English](#english)
+[繁體中文](README.md) | [English](README.en.md)
 
 ## 繁體中文
 
@@ -93,14 +93,6 @@ python -m compileall -q scripts
 ```
 
 `self_test.py` 只在系統暫存目錄建立合成 registry、SQLite 與 rollout，測試 audit、兩次失敗記錄、repair、verify、cleanup 與 rollback。
-
-## English
-
-An unofficial, safety-first Codex skill for auditing and repairing archive failures affecting sessions imported from Claude Code or Cursor. It defaults to read-only inspection, uses the product's supported archive interface first, and permits low-level repair only for exact thread IDs matching a narrowly defined Windows `os error 2` signature.
-
-Key safeguards include exact allowlists, schema and path checks, SHA-256 verification, SQLite backup and transactions, interactive confirmation, rollback, and post-repair verification. It does not permanently delete archived conversations.
-
-See the [Traditional Chinese documentation](#繁體中文) and [SKILL.md](SKILL.md) for the complete workflow and safety boundaries.
 
 ## License
 
